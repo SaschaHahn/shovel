@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+
+    <body align="center">
+        <div class="header">
+            <img class = "logo" src="/img/shovel.png">
+            <a href="/popup.html" title="Go Back">
+                <img class = "settings" src="/img/arrow.png">
+            </a>
+            <a href="https://shovel-extension.net" target="_blank" title="Visit Shovel Extension's Website For More Information">
+                <img class = "settings" src="/img/help.png">
+            </a>
+            <h1>shovel</h1>
+        </div>
+        <br>
+
+        <h4>Type in words or regex to be searched in the source of the page:</h4>
+        <textarea id="searchList" rows="15" cols="50" placeholder="Enter Search Words" spellcheck="false"></textarea>
+        <br>
+        
+        <button type="button" id="save">Save</button>
+        <p id="info">Each new line is a new word.</p>
+        <script src="options.js"></script>
+    </body> 
+</html>

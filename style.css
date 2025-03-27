@@ -1,0 +1,46 @@
+html{
+    height:100%;
+}
+body {
+    min-width:30em;
+    font-family: Arial; 
+    margin: 0px;
+    background-color: rgb(146, 146, 146); 
+    background-image: linear-gradient(to bottom right, rgb(238, 238, 238), rgb(194, 194, 194));
+    min-height:100%;
+}
+.header{
+    height:3em;
+    background-color: rgb(112, 112, 112);
+    overflow: visible; 
+}
+.sign{
+    height:12em;
+    padding: 1em;
+    color: rgb(112, 112, 112);
+}
+.header img.logo {
+    padding: 0.4em;
+    float:  left;
+    max-width: 2.2em;
+    
+}
+.header img.settings {
+    padding: 0.6em;
+    padding-left: 0;
+    float:  right;
+    max-width: 1.8em;
+}
+.header h1{
+    padding: 0.5em;
+    margin-top: 0px;
+    font-size: 1.5em;
+    text-align: center;
+    color:rgb(194, 194, 194);
+}
+h2 {
+    padding-bottom: 0.67em;
+}
+#found {
+    padding-left: 20px;
+}
