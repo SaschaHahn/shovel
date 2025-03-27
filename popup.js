@@ -28,7 +28,7 @@ chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
         chrome.scripting.executeScript(
         {
             target: { tabId: tab.id },
-            files: ["parse_html.js"]
+            files: ["parse-html.js"]
         },
         () => {
             if (chrome.runtime.lastError) {
